@@ -8,7 +8,7 @@ const experiences = [
     date: '2022 - Current',
     logo: freelanceLogo,
     position: 'Full Stack Software Engineer',
-    companyName: 'West Palm Beach, Florida',
+    companyName: 'TD Bank',
     workFrom: 'Fort Lauderdale, FL / Remote',
     website: 'https://www.td.com/us/en/personal-banking',
   },
