@@ -24,7 +24,7 @@ const ServiceSection = (props) => {
   const [filteredProjects, setFilteredProjects] = useState(PROJECTS);
   const [activeFilter, setActiveFilter] = useState('All');
 
-  const filters = ['All', 'React', 'Next JS', 'Sanity'];
+  const filters = ['All', 'React', 'Next JS', 'Sanity', 'Firebase'];
 
   const handleFilter = (tag) => {
     setActiveFilter(tag);

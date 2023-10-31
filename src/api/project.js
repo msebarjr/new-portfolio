@@ -5,15 +5,17 @@ import Crypto from '../videos/cryptodemo.mp4';
 import CoinInfo from '../images/crypto/coin-info.jpg';
 import Portfolio from '../images/crypto/portfolio.jpg';
 import Home from '../images/snapchatz/homepage.png';
+import Comment from '../images/snapchatz/comment.png';
+import SnapChatz from '../videos/SnapChatz.mp4';
 
 const PROJECTS = [
   {
     id: 1,
-    title: 'Crypto Tracker',
+    title: 'CryptoTracker',
     src: Crypto,
     images: [CoinInfo, Portfolio],
     alt: 'Crypto Tracker',
-    tags: ['React'],
+    tags: ['React', 'Firebase'],
     libraries: [
       'axios',
       'chart.js',
@@ -40,8 +42,8 @@ const PROJECTS = [
   {
     id: 2,
     title: 'SnapChatz',
-    src: Photography,
-    images: [Home, Contact],
+    src: SnapChatz,
+    images: [Home, Comment],
     alt: 'CB Photography',
     tags: ['React', 'Sanity'],
     libraries: ['sanity.io', 'tailwind css', 'google login'],
